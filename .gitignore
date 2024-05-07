@@ -1,0 +1,21 @@
+# Arquivos do Sistema Operacional e IDE
+.DS_Store        # Arquivo de sistema do macOS
+Thumbs.db        # Arquivo de sistema do Windows
+*.swp            # Arquivos temporários do Vim
+
+# Dependências
+/vendor/bundle   # Gemas instaladas pelo Bundler
+/node_modules   # Módulos Node.js
+
+# Arquivos de Build e Compilação
+/public/assets   # Arquivos compilados do Asset Pipeline
+/tmp             # Diretório temporário para builds e execução
+/log             # Arquivos de log
+
+# Arquivos de Configuração Sensível
+/config/credentials.yml.enc  # Arquivo de credenciais criptografado
+/config/master.key          # Chave para descriptografar as credenciais
+
+# Configurações Específicas do Ambiente
+.byebug_history   # Histórico do Byebug
+.irb_history      # Histórico do IRB
